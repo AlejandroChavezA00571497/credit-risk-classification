@@ -53,9 +53,9 @@ It's important to consider the balancing step, as the original dataset had aroun
            0       1.00      0.99      1.00     18765
            1       0.85      0.91      0.88       619
 
-    accuracy                           0.99     19384
-   macro avg       0.92      0.95      0.94     19384
-weighted avg       0.99      0.99      0.99     19384
+        accuracy                           0.99     19384
+        macro avg       0.92      0.95      0.94     19384
+        weighted avg       0.99      0.99      0.99     19384
 
 
 
@@ -67,18 +67,12 @@ weighted avg       0.99      0.99      0.99     19384
            0       1.00      0.99      1.00     18765
            1       0.84      0.99      0.91       619
 
-    accuracy                           0.99     19384
-   macro avg       0.92      0.99      0.95     19384
-weighted avg       0.99      0.99      0.99     19384
+        accuracy                           0.99     19384
+        macro avg       0.92      0.99      0.95     19384
+        weighted avg       0.99      0.99      0.99     19384
 
 
 ### Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
 
 Analyzing the results for both models we can conclude that the 2 of them have very good accuracy for predicting our target labels, but considering the slight increase in recall and f-1 score with the over-sampling method, as well as the ease of implementation, we can decide that using this method is best, specially considering how it addresses a flaw a very real and common flaw in these types of real-world problem, where data is not balanced.
 
